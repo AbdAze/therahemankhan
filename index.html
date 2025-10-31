@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A. Raheman Khan — Mindset Coach | Motivational Speaker & Corporate Trainer</title>
+  <meta name="description" content="A. Raheman Khan (Mindset Coach) — Motivational speaker and corporate trainer offering leadership development, mindset coaching, and bespoke corporate workshops.">
+  <meta name="author" content="A. Raheman Khan">
+  <link rel="icon" href="/assets/favicon.png" />
+  <!-- Tailwind CDN (production) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Small helpers beyond tailwind */
+    .hero-bg { background: linear-gradient(120deg, rgba(14,165,233,0.08), rgba(99,102,241,0.06)); }
+  </style>
+  <!-- Structured data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context":"http://schema.org",
+    "@type":"Person",
+    "name":"A. Raheman Khan",
+    "alternateName":"Mindset Coach",
+    "jobTitle":"Motivational Speaker, Corporate Trainer, Mindset Coach",
+    "url":"/",
+    "sameAs":["https://www.linkedin.com/","https://www.instagram.com/"],
+    "address": { "@type":"PostalAddress", "addressLocality":"Surat", "addressCountry":"IN" }
+  }
+  </script>
+</head>
+<body class="antialiased text-slate-800 bg-white">
+  <!-- NAV -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <img src="header.JPG" alt="A. Raheman Khan logo" class="w-10 h-10 rounded-md object-cover">
+        <div>
+          <span class="font-semibold">A. Raheman Khan</span>
+          <div class="text-xs text-slate-500">Mindset Coach & Motivational Speaker</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:text-indigo-600">About</a>
+        <a href="#expertise" class="hover:text-indigo-600">Expertise</a>
+        <a href="#projects" class="hover:text-indigo-600">Work</a>
+        <a href="#testimonials" class="hover:text-indigo-600">Testimonials</a>
+        <a href="#contact" class="hover:text-indigo-600">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="#contact" class="hidden md:inline-block bg-indigo-600 text-white px-4 py-2 rounded-lg text-sm shadow">Book a Session</a>
+        <button id="mobileMenuBtn" class="md:hidden p-2 rounded-md hover:bg-slate-100">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE NAV -->
+  <div id="mobileMenu" class="md:hidden hidden border-b border-slate-100">
+    <div class="px-6 py-4 flex flex-col gap-3">
+      <a href="#about" class="block">About</a>
+      <a href="#expertise" class="block">Expertise</a>
+      <a href="#projects" class="block">Work</a>
+      <a href="#testimonials" class="block">Testimonials</a>
+      <a href="#contact" class="block">Contact</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <main id="home" class="hero-bg">
+    <section class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <p class="text-sm text-indigo-600 font-medium">A. Raheman Khan — Mindset Coach</p>
+        <h1 class="mt-4 text-3xl md:text-4xl font-extrabold leading-tight">Transforming Minds. Inspiring Growth. Empowering Change.</h1>
+        <p class="mt-6 text-slate-600 max-w-xl">I deliver high-impact motivational keynotes and corporate training programs that rewire thinking patterns, unlock potential, and drive measurable behavioural change at individual and team levels.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#contact" class="bg-indigo-600 text-white px-5 py-3 rounded-lg shadow hover:opacity-95">Book a Session</a>
+          <a href="/assets/speaker-kit.pdf" class="border border-slate-200 px-5 py-3 rounded-lg hover:bg-slate-50" download>Download Speaker Kit</a>
+        </div>
+        <div class="mt-8 flex gap-4 items-center">
+          <div class="text-sm">
+            <div class="text-xs text-slate-500">Based in</div>
+            <div class="font-medium">Surat, India</div>
+          </div>
+          <div class="text-sm">
+            <div class="text-xs text-slate-500">Contact</div>
+            <div class="font-medium">rahemankhan.mindsetcoach@gmail.com</div>
+          </div>
+        </div>
+      </div>
+      <div class="relative">
+        <img src="/assets/hero.jpg" alt="A. Raheman Khan speaking" class="w-full rounded-2xl shadow-lg object-cover h-72 md:h-96">
+        <div class="absolute bottom-4 right-4 bg-white/90 p-4 rounded-xl border border-slate-100 shadow">
+          <div class="text-xs text-slate-500">Popular Session</div>
+          <div class="text-sm font-semibold">Mindshift 360: Leadership & Resilience</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="max-w-6xl mx-auto px-6 py-12">
+      <div class="grid md:grid-cols-3 gap-8 items-center">
+        <div class="md:col-span-2">
+          <h2 class="text-2xl font-bold">Meet A. Raheman Khan</h2>
+          <p class="mt-4 text-slate-600">A. Raheman Khan combines psychological insight with practical tools to help professionals and organisations overcome mental barriers, build leadership capacity, and develop growth-oriented cultures. His sessions are practical, evidence-informed and designed for immediate application.</p>
+          <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <li class="flex gap-3 items-start"><span class="text-indigo-600 mt-1">•</span><div><strong>100+</strong> Corporate trainings delivered</div></li>
+            <li class="flex gap-3 items-start"><span class="text-indigo-600 mt-1">•</span><div><strong>10,000+</strong> Individuals impacted</div></li>
+            <li class="flex gap-3 items-start"><span class="text-indigo-600 mt-1">•</span><div><strong>8+</strong> Years of professional experience</div></li>
+            <li class="flex gap-3 items-start"><span class="text-indigo-600 mt-1">•</span><div>Workshops, Keynotes & Coaching</div></li>
+          </ul>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow border border-slate-100">
+          <h3 class="font-semibold">Quick Facts</h3>
+          <div class="mt-4 text-sm text-slate-600 space-y-3">
+            <div><strong>Speciality:</strong> Mindset Reprogramming, Leadership, Stress Resilience</div>
+            <div><strong>Formats:</strong> Keynotes, Half / Full-day Workshops, 1:1 Coaching</div>
+            <div><strong>Languages:</strong> English, Hindi</div>
+            <div><strong>Audience:</strong> Corporates, Educators, Entrepreneurs</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERTISE / SKILLS -->
+    <section id="expertise" class="max-w-6xl mx-auto px-6 py-12">
+      <h2 class="text-2xl font-bold">Areas of Expertise</h2>
+      <p class="mt-2 text-slate-600">Practical programs focussed on measurable outcomes and long-term behaviour change.</p>
+      <div class="mt-6 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- card -->
+        <div class="p-5 border rounded-2xl shadow-sm">
+          <h4 class="font-semibold">Leadership Development</h4>
+          <p class="mt-2 text-sm text-slate-600">Developing conscious, empathetic and outcome-driven leaders.</p>
+        </div>
+        <div class="p-5 border rounded-2xl shadow-sm">
+          <h4 class="font-semibold">Growth Mindset Training</h4>
+          <p class="mt-2 text-sm text-slate-600">Tools to shift identity and habits for continuous growth.</p>
+        </div>
+        <div class="p-5 border rounded-2xl shadow-sm">
+          <h4 class="font-semibold">Corporate Communication</h4>
+          <p class="mt-2 text-sm text-slate-600">Clarity, influence and confident public speaking for teams.</p>
+        </div>
+        <div class="p-5 border rounded-2xl shadow-sm">
+          <h4 class="font-semibold">Emotional Intelligence</h4>
+          <p class="mt-2 text-sm text-slate-600">Self-awareness and relationship-building for better teams.</p>
+        </div>
+        <div class="p-5 border rounded-2xl shadow-sm">
+          <h4 class="font-semibold">Productivity & Focus</h4>
+          <p class="mt-2 text-sm text-slate-600">Habit design and time strategies for peak performance.</p>
+        </div>
+        <div class="p-5 border rounded-2xl shadow-sm">
+          <h4 class="font-semibold">Stress & Resilience</h4>
+          <p class="mt-2 text-sm text-slate-600">Practical resilience frameworks for high-pressure roles.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS / CASE STUDIES -->
+    <section id="projects" class="max-w-6xl mx-auto px-6 py-12">
+      <h2 class="text-2xl font-bold">Selected Work & Case Studies</h2>
+      <p class="mt-2 text-slate-600">A selection of trainings and keynotes with measurable outcomes.</p>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <article class="p-5 border rounded-2xl shadow-sm">
+          <img src="/assets/project1.jpg" alt="ABC Ltd training" class="w-full h-40 object-cover rounded-md">
+          <h3 class="mt-3 font-semibold">Corporate Training — ABC Ltd</h3>
+          <p class="mt-1 text-sm text-slate-600">Leadership & mindset reset for mid-level managers. Result: 35% improvement in team productivity metrics within 3 months.</p>
+        </article>
+        <article class="p-5 border rounded-2xl shadow-sm">
+          <img src="/assets/project2.jpg" alt="National Business Summit" class="w-full h-40 object-cover rounded-md">
+          <h3 class="mt-3 font-semibold">Keynote — National Business Summit 2024</h3>
+          <p class="mt-1 text-sm text-slate-600">Delivered keynote 'Unlock Your Potential' to 500+ attendees with breakout coaching sessions for entrepreneurs.</p>
+        </article>
+        <article class="p-5 border rounded-2xl shadow-sm">
+          <img src="/assets/project3.jpg" alt="Mindshift 360 workshop" class="w-full h-40 object-cover rounded-md">
+          <h3 class="mt-3 font-semibold">Workshop Series — Mindshift 360</h3>
+          <p class="mt-1 text-sm text-slate-600">Multi-week workshop focussed on habit design and confidence building. Participants reported sustained behavioural changes at 6-week follow-up.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="max-w-6xl mx-auto px-6 py-12">
+      <h2 class="text-2xl font-bold">Testimonials</h2>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <blockquote class="p-5 border rounded-2xl bg-white shadow-sm">
+          <p class="text-slate-700">“Raheman’s session changed my perspective on life and leadership. His methods are practical and deeply impactful.”</p>
+          <footer class="mt-3 text-sm text-slate-500">— Amit Sharma, HR Manager, Infosys</footer>
+        </blockquote>
+        <blockquote class="p-5 border rounded-2xl bg-white shadow-sm">
+          <p class="text-slate-700">“The best motivational speaker we’ve had at our annual meet. He connects effortlessly with people.”</p>
+          <footer class="mt-3 text-sm text-slate-500">— Richa Mehta, CEO, GrowthLink Pvt Ltd.</footer>
+        </blockquote>
+        <blockquote class="p-5 border rounded-2xl bg-white shadow-sm">
+          <p class="text-slate-700">“Practical exercises, memorable stories and real results — highly recommended for any organisation.”</p>
+          <footer class="mt-3 text-sm text-slate-500">— Sameer Khan, Founder, VentureX</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="max-w-4xl mx-auto px-6 py-12">
+      <h2 class="text-2xl font-bold text-center">Let’s Connect</h2>
+      <p class="mt-2 text-center text-slate-600">Interested in a keynote, corporate training, or 1:1 coaching? Fill out the form below or email directly.</p>
+
+      <form id="contactForm" class="mt-6 grid grid-cols-1 gap-4" onsubmit="handleForm(event)">
+        <div class="grid sm:grid-cols-2 gap-4">
+          <input required name="name" placeholder="Full name" class="border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-200">
+          <input required type="email" name="email" placeholder="Email" class="border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-200">
+        </div>
+        <input name="organization" placeholder="Organization / Role (optional)" class="border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-200">
+        <textarea required name="message" rows="5" placeholder="Tell me about your requirement..." class="border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-200"></textarea>
+        <div class="flex items-center gap-4">
+          <button type="submit" class="bg-indigo-600 text-white px-5 py-3 rounded-lg">Send Message</button>
+          <a href="mailto:rahemankhan.mindsetcoach@gmail.com" class="text-sm text-slate-600 underline">Or email directly</a>
+        </div>
+        <div id="formMsg" class="text-sm text-green-600 hidden">Thank you — your message has been copied to your email client. You can send it now.</div>
+      </form>
+
+      <div class="mt-8 text-center text-sm text-slate-500">Direct: <a href="mailto:rahemankhan.mindsetcoach@gmail.com" class="underline">rahemankhan.mindsetcoach@gmail.com</a> • Phone: +91-XXXXXXXXXX</div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-slate-100 mt-12">
+      <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div class="text-sm">© 2025 A. Raheman Khan — Mindset Coach</div>
+        <div class="flex items-center gap-4">
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="YouTube">YouTube</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // Mobile menu toggle
+    const mobileBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+
+    // Simple contact form handler: open user's mail client with prefilled content as fallback
+    function handleForm(e) {
+      e.preventDefault();
+      const form = e.target;
+      const data = new FormData(form);
+      const name = data.get('name');
+      const email = data.get('email');
+      const org = data.get('organization') || '';
+      const message = data.get('message');
+      const subject = encodeURIComponent('Enquiry: Speaker/Training Request — ' + name);
+      const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nOrganization: ${org}\n\nMessage:\n${message}`);
+      const mailto = `mailto:rahemankhan.mindsetcoach@gmail.com?subject=${subject}&body=${body}`;
+      // Try to open mail client
+      window.location.href = mailto;
+      // Show small feedback to user
+      const msg = document.getElementById('formMsg');
+      msg.classList.remove('hidden');
+      setTimeout(()=> msg.classList.add('hidden'), 6000);
+      form.reset();
+    }
+  </script>
+</body>
+</html>
